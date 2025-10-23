@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Atualizada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à minha página!</h1>
+        <p>Estamos aprendendo a atualizar uma página no GitHub!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Alterações feitas:</h2>
+            <ul>
+                <li>Mudança de cores de fundo</li>
+                <li>Adição de novas fontes</li>
+                <li>Inclusão de novos elementos</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por [Seu Nome] - 2025</p>
+    </footer>
+</body>
+</html>
+
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;  /* Alterando o fundo para azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;  /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
